@@ -7,7 +7,7 @@ let estaAcompanado = true;
 
 console.log(`Verificando pasaje para ${ciudadDestino} y el pasajero tiene ${edadPasajero} años`);
 if (edadPasajero >= 18 || estaAcompanado) {
-  if (ciudadesDisponibles.indexOf(ciudadDestino) >=-1) {
+  if (ciudadesDisponibles.indexOf(ciudadDestino) >-1) {
     console.log('Pasaje disponible para venta');
   } else {
     console.log('Ciudad no disponible para viajar');
